@@ -1,0 +1,1035 @@
+[
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add post",
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change post",
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete post",
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view post",
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add comment",
+    "content_type": [
+      "blog",
+      "comment"
+    ],
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change comment",
+    "content_type": [
+      "blog",
+      "comment"
+    ],
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": [
+      "blog",
+      "comment"
+    ],
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view comment",
+    "content_type": [
+      "blog",
+      "comment"
+    ],
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add tag",
+    "content_type": [
+      "taggit",
+      "tag"
+    ],
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change tag",
+    "content_type": [
+      "taggit",
+      "tag"
+    ],
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": [
+      "taggit",
+      "tag"
+    ],
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view tag",
+    "content_type": [
+      "taggit",
+      "tag"
+    ],
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": [
+      "taggit",
+      "taggeditem"
+    ],
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": [
+      "taggit",
+      "taggeditem"
+    ],
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": [
+      "taggit",
+      "taggeditem"
+    ],
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": [
+      "taggit",
+      "taggeditem"
+    ],
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add site",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change site",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete site",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view site",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$720000$D9r9T6d0xXCQZsmNXCqPps$5T+hZPTYV9IJ58XpBfJcBN1bgRSr/CKx5MfuldQJ7aU=",
+    "last_login": "2024-11-29T14:48:16.243Z",
+    "is_superuser": true,
+    "username": "mathias",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-11-27T20:05:41Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-11-27T21:28:42.652Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e363arz17f07j6lk23bdhq1tu6mtt6ba",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YXsp6XMGa73e4ABypDipEHeHSCmgfTPzXiLhtta0dV7SVMRFaHH63TLSg9sOyh3bbZY0t3WZstwVedAuh7nw83q4fwcVe_3WHvOZSIMqzlmIweoRApMjjJhtyZF8HFkpy84QGx0peADvAIF0NE68P-qnN7Y:1tGOIg:PGtu8AoJbVzNUcqTdvyqOjOT3bBjX-_tFG9hSUuRPAc",
+    "expire_date": "2024-12-11T20:06:14.990Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lc2ewra0b972b1m33byf1xw7o69n98xh",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YXsp6XMGa73e4ABypDipEHeHSCmgfTPzXiLhtta0dV7SVMRFaHH63TLSg9sOyh3bbZY0t3WZstwVedAuh7nw83q4fwcVe_3WHvOZSIMqzlmIweoRApMjjJhtyZF8HFkpy84QGx0peADvAIF0NE68P-qnN7Y:1tH2I4:ORLRz9fulWzjy4tLF8NRyDOT5iAB5kYhMzPlaZR03ME",
+    "expire_date": "2024-12-13T14:48:16.244Z"
+  }
+},
+{
+  "model": "sites.site",
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 4,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 8
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Monty Python",
+    "slug": "monty-python",
+    "author": [
+      "mathias"
+    ],
+    "body": "The Monty Python's surviving members include Terry Gilliam, Michael Palin, Eric Idle and John Cleese. The Monty Python has been part of our lives since 1969",
+    "publish": "2024-11-27T20:12:48Z",
+    "created": "2024-11-27T20:13:56.192Z",
+    "updated": "2024-11-28T01:48:13.787Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "New title",
+    "slug": "another-post",
+    "author": [
+      "mathias"
+    ],
+    "body": "Post body.",
+    "publish": "2024-11-27T21:25:50.335Z",
+    "created": "2024-11-27T21:25:55.422Z",
+    "updated": "2024-11-27T21:29:04.018Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Pythonic",
+    "slug": "pythonic",
+    "author": [
+      "mathias"
+    ],
+    "body": "What is Pythonic? Pythonic refers to writing code in a way that embraces the principles and idioms of the Python programming language. It means using the concise, expressive, and readable features of Python to write efficient and elegant code.",
+    "publish": "2024-11-28T02:23:43Z",
+    "created": "2024-11-28T02:24:09.663Z",
+    "updated": "2024-11-29T03:11:20.702Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "The Beginnings of Monty Python",
+    "slug": "the-beginnings-of-monty-python",
+    "author": [
+      "mathias"
+    ],
+    "body": "Monty Python, officially known as \"Monty Python's Flying Circus,\" was a British comedy troupe that formed in 1969. The group brought together a diverse team of talented performers including Graham Chapman, John Cleese, Eric Idle, Terry Gilliam, Terry Jones, and Michael Palin. Their unique brand of absurd humor quickly gained a cult following, breaking away from traditional comedic norms and introducing surreal sketches and iconic characters. They revolutionized television comedy with their highly influential sketch show that aired on the BBC.",
+    "publish": "2024-11-28T03:34:47Z",
+    "created": "2024-11-28T03:34:57.341Z",
+    "updated": "2024-11-29T03:11:31.603Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Monty Python's Influence on Comedy",
+    "slug": "monty-pythons-influence-on-comedy",
+    "author": [
+      "mathias"
+    ],
+    "body": "Monty Python's impact on comedy cannot be overstated. The group's innovative approach to humor—often involving satire, wordplay, absurdist logic, and non-sequitur sketches—has inspired countless comedians, writers, and filmmakers. Python's work, including their feature films like Monty Python and the Holy Grail (1975) and Life of Brian (1979), continues to be a major reference point in both stand-up comedy and film. Their influence can be seen in the work of comedy legends from The Simpsons to South Park, and even in the formats of modern sketch shows.",
+    "publish": "2024-11-28T03:34:59Z",
+    "created": "2024-11-28T03:35:15.766Z",
+    "updated": "2024-11-28T03:35:15.766Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Iconic Sketches and Characters",
+    "slug": "iconic-sketches-and-characters",
+    "author": [
+      "mathias"
+    ],
+    "body": "Some of Monty Python's most beloved sketches and characters are still referenced in popular culture today. From the “Dead Parrot” sketch, where a customer attempts to return a clearly deceased bird, to the \"Ministry of Silly Walks\" featuring John Cleese's hilariously exaggerated movements, these moments have become iconic. Other unforgettable characters include the \"Spanish Inquisition,\" the \"Knights who say Ni,\" and the \"Lumberjack Song.\" These absurd and often satirical routines defined the Pythons' comedic style and have maintained their popularity for decades.",
+    "publish": "2024-11-28T03:35:17Z",
+    "created": "2024-11-28T03:35:32.969Z",
+    "updated": "2024-11-28T03:35:32.969Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Monty Python's Lasting Legacy",
+    "slug": "monty-pythons-lasting-legacy",
+    "author": [
+      "mathias"
+    ],
+    "body": "Though the group officially disbanded in the mid-1980s, Monty Python's influence endures. Their work continues to be celebrated through reunions, such as the 2014 Monty Python Live (Mostly) stage show, and their movies still find new audiences. The troupe's contribution to the world of comedy is so significant that Monty Python's work is often cited in discussions about the evolution of modern humor. Their unique blend of intellectual wit and absurdity made them pioneers in a genre that continues to inspire new generations of creators.",
+    "publish": "2024-11-28T03:35:35Z",
+    "created": "2024-11-28T03:35:50.232Z",
+    "updated": "2024-11-28T03:35:50.232Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "mardown-post",
+    "author": [
+      "mathias"
+    ],
+    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n* Two\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2024-11-29T04:17:06Z",
+    "created": "2024-11-29T04:18:35.538Z",
+    "updated": "2024-11-29T04:18:35.538Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 7,
+    "name": "mathias",
+    "email": "autonomousmachine@gmail.com",
+    "body": "This is awesome!",
+    "created": "2024-11-28T14:33:25.536Z",
+    "updated": "2024-11-28T14:33:25.536Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 7,
+    "name": "frank",
+    "email": "frank@gmail.com",
+    "body": "I didn't know this!",
+    "created": "2024-11-28T14:33:54.318Z",
+    "updated": "2024-11-28T14:34:24.185Z",
+    "active": false
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-11-27T20:12:43.714Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "mathias",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-11-27T20:13:56.194Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "Monty Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-11-28T01:48:13.790Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "Monty Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-11-28T02:24:09.665Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "3",
+    "object_repr": "Pythonic",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-11-28T03:34:57.343Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "4",
+    "object_repr": "The Beginnings of Monty Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-11-28T03:35:15.768Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "5",
+    "object_repr": "Monty Python's Influence on Comedy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-11-28T03:35:32.971Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "6",
+    "object_repr": "Iconic Sketches and Characters",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-11-28T03:35:50.233Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "7",
+    "object_repr": "Monty Python's Lasting Legacy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-11-28T14:34:24.187Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "comment"
+    ],
+    "object_id": "2",
+    "object_repr": "Comment by frank on Monty Python's Lasting Legacy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-11-29T03:11:20.707Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "3",
+    "object_repr": "Pythonic",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-11-29T03:11:31.605Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "4",
+    "object_repr": "The Beginnings of Monty Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-11-29T04:18:35.549Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-11-29T04:44:40.102Z",
+    "user": [
+      "mathias"
+    ],
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+}
+]

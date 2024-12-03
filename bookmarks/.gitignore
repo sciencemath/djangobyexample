@@ -1,0 +1,63 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# .env files for environment variables
+.env
+.env.*
+
+# Cert files
+*.crt
+*.pem
+*.key
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# Coverage reports
+.coverage
+coverage.xml
+*.coveragerc
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache/
+
+# Type hinting files
+*.pylintrc
