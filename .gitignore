@@ -1,0 +1,55 @@
+# macOS system files
+#######################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS trash folder that might appear on network shares
+.Trashes
+
+# Icon must be placed here for Finder to show custom icon
+Icon?
+
+# Python files
+######################
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python egg files
+*.egg
+*.egg-info/
+.eggs/
+
+# PyInstaller
+#  Usually these are the folders created by PyInstaller when you bundle your app.
+dist/
+build/
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode settings (optional, but commonly used)
+.vscode/
+
+# PyCharm settings (optional)
+.idea/
+
+# Editor temporary files (you can add others based on your preferred editor)
+*~.nfs
+
+# macOS specific files related to Python projects
+#######################
+# Python virtual environments created by pyenv or other tools
+.python-version
