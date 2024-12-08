@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load cache %}
+
 {% block title %}
   {{ object.title }}
 {% endblock %}
@@ -25,11 +27,14 @@
     </ul>
   </div>
   <div class="module">
-    {% for content in module.contents.all %}
-      {% with item=content.item %}
-        <h2>{{ item.title }}</h2>
-        {{ item.render }}
-      {% endwith %}
-    {% endfor %}
+    {% comment %} if this used i18n make sure to cache request.LANGUAGE_CODE as well {% endcomment %}
+    {% cache 600 module_contents module %}
+      {% for content in module.contents.all %}
+        {% with item=content.item %}
+          <h2>{{ item.title }}</h2>
+          {{ item.render }}
+        {% endwith %}
+      {% endfor %}
+    {% endcache %}
   </div>
 {% endblock %}
