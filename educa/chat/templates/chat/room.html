@@ -33,7 +33,7 @@
   const requestUser = JSON.parse(
     document.getElementById('request-user').textContent
   )
-  const url = `ws://${window.location.host}/ws/chat/room/${courseId}/`
+  const url = `wss://${window.location.host}/ws/chat/room/${courseId}/`
   const chatSocket = new WebSocket(url)
   const input = document.getElementById('chat-message-input')
   const submitButton = document.getElementById('chat-message-submit')
